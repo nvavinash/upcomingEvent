@@ -44,15 +44,15 @@ body{
     padding: 10px;
 }
 .timeContent{
-    margin-top: 14px;
+    margin-top: 34px;
+    
     display: flex;
     color: orange;
     flex-wrap: wrap;
     justify-content: space-evenly;
-   align-items: center;
+   align-items:center;
    text-align: center;
    font-weight: 500;
-
 }
 
 .timeDays,.timeHours, .timeMinutes, .timeSeconds{
@@ -75,6 +75,14 @@ body{
         text-transform: capitalize;
     }
     
+    @media(max-width:450px){
+        .matter header{
+            font-size:37px;
+        }
+        .matter p{
+            font-size:14px
+        }
+    }
 
 
 
